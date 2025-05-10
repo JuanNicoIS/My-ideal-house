@@ -207,3 +207,61 @@ html {
 .footer.visible {
     bottom: 0;
 }
+
+
+@media (max-width: 1024px) {
+  .text-content {
+    width: 100%;
+    margin-left: 0;
+    padding-right: 0;
+  }
+
+  .mini-menu {
+    width: 100%;
+    height: auto;
+    position: static;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+
+  .section-content {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu {
+    padding: 10px;
+  }
+
+  .mini-menu {
+    width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .section .text, .section .image {
+    width: 100%;
+  }
+}
