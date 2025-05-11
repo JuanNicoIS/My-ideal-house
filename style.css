@@ -284,13 +284,14 @@ html {
     }
 
     .text-content {
-        width: 96%;
+        width: 98%;
         padding-right: 0px;
         margin-left: 0rem;
     }
 
     .section {
         height: auto;
+        padding: .5rem;
     }
 
     .section .text {
@@ -300,4 +301,8 @@ html {
     .section .image {
         margin-top: 1rem;
     }
+
+    .section .text p {
+    font-size: 1.2rem;
+}
 }
